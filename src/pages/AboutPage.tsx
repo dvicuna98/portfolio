@@ -15,6 +15,9 @@ export const AboutPage: React.FC<Props> = ({ theme }) => {
   const { t, i18n } = useTranslation();
   const { title, description, cvUrl } = portfolioData.about[i18n.language];
 
+  const pdfUrl = `${import.meta.env.BASE_URL}${cvUrl}`;
+  const profilePicture = `${import.meta.env.BASE_URL}assets/images/me.webp`;
+
   return (
     <div className="max-w-6xl mx-auto px-4">
       <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -35,7 +38,7 @@ export const AboutPage: React.FC<Props> = ({ theme }) => {
               >
                 <div className="w-32 h-32 rounded-full overflow-hidden ring-4 ring-purple-500/30">
                   <img
-                    src="/assets/images/me.webp"
+                    src={profilePicture}
                     alt="Profile"
                     className="w-full h-full object-cover"
                   />
@@ -70,7 +73,7 @@ export const AboutPage: React.FC<Props> = ({ theme }) => {
               className="flex gap-4 flex-wrap"
             >
               <motion.a
-                href={cvUrl}
+                href={pdfUrl}
                 download
                 className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full hover:from-purple-700 hover:to-pink-700 transition-all transform hover:scale-105 shadow-lg"
                 whileHover={{ y: -5, scale: 1.05, height: "auto" }}
