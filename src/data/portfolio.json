@@ -1,0 +1,264 @@
+{
+  "about": {
+    "en": {
+      "title": "About Me",
+      "description": "Passionate and self-driven software developer and team lead with a strong background in agile methodologies. Specialized in microservices and full-stack development, with expertise in domain-driven design (DDD) and event-driven architectures. Experienced in designing and deploying scalable solutions on Google Cloud. Always eager to learn, improve, and drive innovation within teams.",
+      "cvUrl": "/path/to/cv-en.pdf"
+    },
+    "es": {
+      "title": "Sobre Mí",
+      "description": "Desarrollador de software apasionado y autodidacta, con una sólida experiencia en metodologías ágiles. Especializado en microservicios y desarrollo full-stack, con conocimientos en diseño basado en dominios (DDD) y arquitecturas dirigidas por eventos. Experiencia en diseño e implementación de soluciones escalables en Google Cloud. Siempre motivado por el aprendizaje, la mejora continua y la innovación en los equipos de trabajo.",
+      "cvUrl": "/path/to/cv-es.pdf"
+    }
+  },
+  "education": {
+    "en": [
+      {
+        "degree": "Computer Science Engineer",
+        "institution": "Tech University",
+        "period": "2018-2020",
+        "descriptions": [
+          "Led the development of a distributed system that enabled students to evaluate and grade professors' classes at the Salesian Polytechnic University (Guayaquil campus). Additionally, developed the mobile application using Flutter, which interacted with the backend microservice. The system also allowed students to request class inspections, fostering transparency and accountability in the university’s teaching methods. The feedback and inspection requests were presented to the Computer Science Degree department, providing valuable insights for continuous improvement.",
+          "Served as a webinar speaker on the development of a mobile application using Flutter and Firebase. This presentation played a key role in shifting the Mobile Applications curriculum, ensuring that students developed proficiency in creating diverse applications using Flutter. It also contributed to the creation of future mobile application development contests at the university.",
+          "Developed an augmented reality application using Unity 3D, featuring real-time cooperative communication for a coding learning game. The game allowed two users, using different phones, to interact and learn coding concepts in an engaging and interactive way. This project demonstrated how augmented reality could be used to teach abstract concepts like data structures in a more tangible and intuitive manner."
+        ],
+        "skills": [
+          "Distributed Systems",
+          "Cloud Architecture",
+          "System Design",
+          "Firebase",
+          "Unity 3D",
+          "Team Leadership",
+          "Flutter",
+          "Real-Time Communication"
+        ]
+      }
+    ],
+    "es": [
+      {
+        "degree": "Ingeniería en Ciencias de la Computación",
+        "institution": "Universidad Politécnica Salesiana",
+        "period": "2018-2023",
+        "descriptions": [
+          "Lideré el desarrollo de un sistema distribuido que permitía a los estudiantes evaluar y calificar las clases de los profesores de la Universidad Politécnica Salesiana (campus Guayaquil). Adicionalmente, desarrollé la aplicación móvil usando Flutter, que interactuaba con el microservicio backend. El sistema también permitió a los estudiantes solicitar inspecciones de las clases, fomentando la transparencia y la rendición de cuentas en los métodos de enseñanza de la universidad. La retroalimentación y las solicitudes de inspección fueron presentadas al departamento de Ingeniería en Ciencias de la Computación, proporcionando información valiosa para la mejora continua.",
+          "Fui ponente en un seminario web sobre el desarrollo de una aplicación móvil con Flutter y Firebase. Esta presentación desempeñó un papel clave en el cambio del plan de estudios de aplicaciones móviles, asegurando que los estudiantes desarrollaran competencia en la creación de diversas aplicaciones utilizando Flutter. También contribuyó a la creación de futuros concursos de desarrollo de aplicaciones móviles en la universidad.",
+          "Desarrollé una aplicación de realidad aumentada utilizando Unity 3D, con comunicación cooperativa en tiempo real para un juego de aprendizaje de codificación. El juego permitía a dos usuarios, que utilizaban teléfonos diferentes, interactuar y aprender conceptos de codificación de forma atractiva e interactiva. Este proyecto demostró cómo puede utilizarse la realidad aumentada para enseñar conceptos abstractos, como estructuras de datos, de una forma más tangible e intuitiva."
+        ],
+        "skills": [
+          "Sistemas Distribuidos",
+          "Arquitectura Cloud",
+          "Diseño de Sistemas",
+          "Firebase",
+          "Unity 3D",
+          "Liderazgo de Equipos",
+          "Flutter",
+          "Comunicación en Tiempo Real"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "en": [
+      {
+        "position": "Solution Architect",
+        "company": "Universidad Casa Grande",
+        "period": "Aug 2024 - Present",
+        "descriptions": [
+          "Engineered an automatic locking and unlocking system using Java, containerized with Docker, and deployed on Google Cloud Platform (GCP). This solution significantly enhanced operational efficiency, reducing several days of manual work.",
+          "Developed a web-based vacation request management platform with Nuxt.js (frontend) and Google Apps Script for backend automation. Deployed on Google Cloud Run with Docker, replacing paper-based processes and streamlining approval workflows.",
+          "Designed and implemented a data collection service for Zoom meetings using NestJS for the backend, Firestore for storage, and deployed on Google Cloud Run with Docker. Enabled automated instructor notifications for uploading recorded sessions to Moodle, improving compliance and accessibility.",
+          "Built and optimized a validation service using FastAPI and Firestore, deployed on Google Cloud Run with Docker. This system ensured seamless account creation for partner companies, preventing duplicate or already-used email issues."
+        ],
+        "skills": ["Node.js", "Express", "Nestjs", "Fast API", "Nuxtjs", "Vuejs ","Docker", "Google cloud", "Cloud run", "Firebase", "Java", "Python", "Typescript"]
+      },
+      {
+        "position": "Technical Co-Lead",
+        "company": "Iberoamerican University Foundation (FUNIBER)",
+        "period": "mar. 2024 - Aug 2024",
+        "descriptions": [
+          "Led and mentored a development team in designing and implementing scalable software applications following Domain-Driven Design (DDD) and Clean Code principles.",
+          "Built microservices using NestJS, containerized with Docker, and deployed on Google Kubernetes Engine (GKE), ensuring high performance, scalability, and reliability.",
+          "Architected and deployed a microservice leveraging NestJS, RabbitMQ, and MongoDB, containerized with Docker and deployed on GKE. This solution enabled seamless message exchange between a legacy system and a third-party service, preventing system overload while ensuring advisors retained critical information."
+        ],
+        "skills": ["Node.js", "Express", "Nestjs", "RabbitMQ", "MongoDB ","Docker", "Google cloud", "Kubernetes", "Microservices", "Typescript"]
+      },
+      {
+        "position": "Senior Software Developer",
+        "company": "Iberoamerican University Foundation (FUNIBER)",
+        "period": "Jan 2024 – Mar 2024",
+        "descriptions": [
+          "Architected and deployed a microservice on Google Cloud Platform (GCP) using NestJS, RabbitMQ, and the Google Drive API for data retrieval. Containerized with Docker and deployed on Kubernetes (k8s) with MongoDB for storage, this solution optimized the generation of large information requests, improving user experience and workflow efficiency.",
+          "Developed and integrated a web application frontend using Laravel with Inertia, and implemented backend methods with Lumen to generate statistical report files for the Spain Ministry of Education. Utilized RabbitMQ for message queuing, MongoDB for storage, and containerized with Docker on Kubernetes. This automated report generation, eliminating manual processes and significantly reducing annual workload.",
+          "Fostered team growth and engagement by initiating partnerships with external institutions for webinars, seminars, and lectures, enhancing team members' soft skills and confidence, and creating new professional development opportunities."
+        ],
+        "skills": ["Node.js", "Express", "Nestjs", "Laravel", "Inertia.js", "Vuejs", "RabbitMQ", "MongoDB ","Docker", "Google cloud", "Kubernetes", "Microservices", "Typescript","Google Drive API"]
+      },
+      {
+        "position": "Backend Chapter Lead",
+        "company": "Iberoamerican University Foundation (FUNIBER)",
+        "period": "Apr 2023 – Aug 2024",
+        "descriptions": [
+          "Architected and designed scalable backend solutions following Domain-Driven Design (DDD), Vertical Slice Architecture, and Hexagonal Architecture. Containerized applications with Docker, implemented RabbitMQ for message queuing, and deployed on Google Cloud Platform (GCP) using Kubernetes (k8s). This framework empowered team members to enforce domain business rules effectively and adopt modern architectural patterns.",
+          "Led and conducted internal webinars on Domain-Driven Design (DDD), providing a platform for team members to ask questions, address concerns, and enhance their understanding of architectural best practices. This initiative improved collaboration and knowledge sharing across development teams."
+        ],
+        "skills": ["Domain-Driven Design (DDD)", "Vertical Slice Architecture", "Hexagonal Architecture", "Nestjs", "RabbitMQ", "Docker", "Google cloud", "Kubernetes", "Microservices", "Typescript"]
+      },
+      {
+        "position": "Semi Senior Software Developer",
+        "company": "Iberoamerican University Foundation (FUNIBER)",
+        "period": "Oct 2021 – Jan 2024",
+        "descriptions": [
+          "Designed, developed, and deployed a microservice using Laravel and RabbitMQ for message queuing, containerized with Docker, and deployed on Google Cloud Platform (GCP) using Kubernetes (k8s). This solution enabled institution supervisors to check applicants' enrollment status via email, eliminating the need for direct system access and improving follow-up efficiency.",
+          "Led the UI/UX design and development of a scholarship application platform, prototyped in Figma with IBM Carbon Design and implemented using Vue.js. The platform streamlined the application process, eliminating manual data entry and enhancing daily workflow efficiency.",
+          "Developed a dynamic frontend form using Figma, Google Material Design, and Vue.js, deployed on GCP with Docker and Nginx as a reverse proxy. The form self-generates based on a provided JSON file, accelerating development cycles and allowing the organization to rapidly adapt to new requirements."
+        ],
+        "skills": ["Vue js", "Laravel", "Figma", "UI/UX", "Nginx", "RabbitMQ", "Docker", "Google cloud", "Kubernetes", "Typescript"]
+      },
+
+      {
+        "position": "Freelance Software Developer",
+        "company": "TBA Solutions",
+        "period": "Jan 2020 – Jun 2020, May 2021 – Jul 2021",
+        "descriptions": [
+          "Designed the UI/UX and developed a mobile application for a medical care contract between TBA Solutions and Asisken. Built with Flutter using the Provider architecture, the app consumed REST APIs and provided an intuitive interface for managing medical care services. Led both frontend and backend development, ensuring seamless integration and optimal user experience.",
+          "Developed and deployed a web platform using Django (backend) and PostgreSQL (database), hosted on Heroku. The system allowed users to manage raw materials for product production and automatically generate monthly reports, eliminating manual report creation and significantly improving operational efficiency.",
+          "Provided support for a time control system used by Avícola Fernández, built with .NET and C#. Responsibilities included bug fixing, system maintenance, and performance optimizations, ensuring smooth operation and reliability."
+        ],
+        "skills": ["Flutter", "Provider", "REST APIs", "Mobile Development", "Backend Development", "Django", "PostgreSQL", "Heroku", ".NET", "C#"]
+      }
+    ],
+    "es": [
+      {
+        "position": "Arquitecto de Soluciones",
+        "company": "Universidad Casa Grande",
+        "period": "Agosto 2024 - Presente",
+        "descriptions": [
+          "Diseñé e implementé un sistema automático de bloqueo y desbloqueo utilizando Java, contenedorizado con Docker y desplegado en Google Cloud Platform (GCP). Esta solución mejoró significativamente la eficiencia operativa, reduciendo días de trabajo manual.",
+          "Desarrollé una plataforma web para la gestión de solicitudes de vacaciones con Nuxt.js en el frontend y Google Apps Script para automatización backend. Implementado en Google Cloud Run con Docker, reemplazando procesos en papel y optimizando los flujos de aprobación.",
+          "Diseñé e implementé un servicio de recolección de datos de reuniones de Zoom usando NestJS, Firestore y Google Cloud Run con Docker. Esto permitió notificaciones automáticas para instructores, mejorando el cumplimiento y la accesibilidad.",
+          "Construí y optimicé un servicio de validación con FastAPI y Firestore, desplegado en Google Cloud Run con Docker, asegurando la creación sin errores de cuentas para empresas colaboradoras."
+        ],
+        "skills": ["Java", "Docker", "Google Cloud Platform", "Nuxtjs", "Vuejs", "Apps Script", "Nestjs", "Express", "Firestore", "Firebase", "Zoom APIs", "Typescript", "FastAPI", "Open API", "Python"]
+      },
+      {
+        "position": "Co-Líder Técnico",
+        "company": "Fundación Universitaria Iberoamericana (FUNIBER)",
+        "period": "Marzo 2024 - Agosto 2024",
+        "descriptions": [
+          "Lideré y guié a un equipo de desarrollo en la creación de aplicaciones escalables siguiendo principios de DDD y Clean Code por medio de implementaciones de microservicios con NestJS, Docker y Google Kubernetes Engine (GKE), asegurando alto rendimiento y confiabilidad.",
+          "Diseñé un microservicio con NestJS, RabbitMQ y MongoDB para facilitar la comunicación entre un sistema legado y un servicio de terceros."
+        ],
+        "skills": ["NestJS", "Microservices", "Docker", "Google Kubernetes Engine (GKE)", "Domain-Driven Design (DDD)", "Clean Code", "RabbitMQ", "MongoDB", "Microservices Architecture"]
+      },
+      {
+        "position": "Desarrollador Senior",
+        "company": "Fundación Universitaria Iberoamericana (FUNIBER)",
+        "period": "Enero 2024 – Marzo 2024",
+        "descriptions": [
+          "Arquitecte y desarrolle un microservicio en Google Cloud Platform (GCP) utilizando NestJS, RabbitMQ y la API de Google Drive para la recuperación de datos. Containerizada con Docker y desplegada en Kubernetes (k8s) con MongoDB para el almacenamiento, esta solución optimizó la generación de grandes solicitudes de información, mejorando la experiencia del usuario y la eficiencia del flujo de trabajo.",
+          "Desarrollé e integré una aplicación web frontend usando Laravel con Inertia, e implementé métodos backend con Lumen para generar archivos de informes estadísticos para el Ministerio de Educación de España. Utilizó RabbitMQ para la cola de mensajes, MongoDB para el almacenamiento, y en contenedores con Docker en Kubernetes. Esto automatizó la generación de informes, eliminando procesos manuales y reduciendo significativamente la carga de trabajo anual.",
+          "Fomenté el crecimiento y el compromiso del equipo iniciando asociaciones con instituciones externas para seminarios web, seminarios y conferencias, mejorando las competencias interpersonales y la confianza de los miembros del equipo y creando nuevas oportunidades de desarrollo profesional."
+        ],
+        "skills": ["NestJS", "RabbitMQ", "Google Drive API", "MongoDB", "Docker", "Kubernetes (k8s)", "Google Cloud Platform (GCP)", "Laravel", "Inertia.js", "Lumen", "Leadership", "Public Speaking", "Team Development", "Strategic Partnerships"]
+      },
+      {
+        "position": "Líder de Capítulo Backend",
+        "company": "Fundación Universitaria Iberoamericana (FUNIBER)",
+        "period": "Abril 2023 – Agosto 2024",
+        "descriptions": [
+          "Arquitecte y desarrolle soluciones de backend escalables siguiendo Domain-Driven Design (DDD), Vertical Slice Architecture y Hexagonal Architecture. Aplicaciones en contenedores con Docker, implementación de RabbitMQ para colas de mensajes e implementación en Google Cloud Platform (GCP) mediante Kubernetes (k8s). Este marco permitió a los miembros del equipo aplicar las reglas empresariales del dominio de forma eficaz y adoptar patrones arquitectónicos modernos.",
+          "Llevé a cabo seminarios web internos sobre diseño orientado al dominio (DDD), proporcionando una plataforma para que los miembros del equipo plantearan preguntas, resolvieran dudas y mejoraran su comprensión de las mejores prácticas arquitectónicas. Esta iniciativa mejoró la colaboración y el intercambio de conocimientos entre los equipos de desarrollo."
+        ],
+        "skills": ["Domain-Driven Design (DDD)", "Vertical Slice Architecture", "Hexagonal Architecture", "Docker", "RabbitMQ", "Kubernetes (k8s)", "Google Cloud Platform (GCP)", "Technical Leadership", "Public Speaking", "Software Architecture", "Mentorship"]
+      },
+      {
+        "position": "Desarrollador Semi Senior",
+        "company": "Fundación Universitaria Iberoamericana (FUNIBER)",
+        "period": "Octubre 2021 – Enero 2024",
+        "descriptions": [
+          "Diseñé, desarrollé y desplegué un microservicio utilizando Laravel y RabbitMQ para la cola de mensajes, en contenedores con Docker y desplegado en Google Cloud Platform (GCP) utilizando Kubernetes (k8s). Esta solución permitió a los supervisores de la institución comprobar el estado de inscripción de los solicitantes por correo electrónico, eliminando la necesidad de acceder directamente al sistema y mejorando la eficiencia del seguimiento.",
+          "Diseñé y desarrollé la interfaz de usuario de una plataforma de solicitud de becas, prototipada en Figma con IBM Carbon Design e implementada con Vue.js. La plataforma agilizó el proceso de solicitud, eliminando la introducción manual de datos y mejorando la eficiencia del flujo de trabajo diario.",
+          "Desarrollé un formulario frontal dinámico con Figma, Google Material Design y Vue.js, desplegado en GCP con Docker y Nginx como proxy inverso. El formulario se autogenera a partir de un archivo JSON proporcionado, lo que acelera los ciclos de desarrollo y permite a la organización adaptarse rápidamente a nuevos requisitos."
+        ],
+        "skills": ["Laravel", "RabbitMQ", "Docker", "Kubernetes (k8s)", "Google Cloud Platform (GCP)", "Vue.js", "Figma", "IBM Carbon Design", "UI/UX", "Google Material Design", "Nginx"]
+      },
+      {
+        "position": "Desarrollador Freelance",
+        "company": "TBA Solutions",
+        "period": "Ene 2020 – Jun 2020, May 2021 – Jul 2021",
+        "descriptions": [
+          "Diseñé la interfaz de usuario y desarrollamos una aplicación móvil para un contrato de asistencia médica entre TBA Solutions y Asisken. Construida con Flutter utilizando la arquitectura Provider, la app consumía APIs REST y proporcionaba una interfaz intuitiva para gestionar los servicios de atención médica. Dirigí tanto el desarrollo frontend como backend, asegurando una integración perfecta y una experiencia de usuario óptima.",
+          "Desarrollé una plataforma web utilizando Django (backend) y PostgreSQL (base de datos), alojada en Heroku. El sistema permitió a los usuarios gestionar las materias primas para la producción de productos y generar automáticamente informes mensuales, eliminando la creación manual de informes y mejorando significativamente la eficiencia operativa.",
+          "Proporcioné soporte a un sistema de control horario utilizado por Avícola Fernández, construido con .NET y C#. Las responsabilidades incluyeron la corrección de errores, el mantenimiento del sistema y la optimización del rendimiento, garantizando el buen funcionamiento y la fiabilidad."
+        ],
+        "skills": ["Flutter", "Provider", "REST APIs", "Mobile Development", "Backend Development", "Django", "PostgreSQL", "Heroku", ".NET", "C#"]
+      }
+    ]
+  },
+  "projects": {
+    "en": [
+      {
+        "title": "CV Builder",
+        "description": "CV Builder is an open-source application developed with React and Vite that allows users to design their resume interactively.",
+        "technologies": ["React", "Vite", "Docker"],
+        "link": "https://github.com/dvicuna98/resume-builder"
+      },
+      {
+        "title": "Portfolio 1",
+        "description": "My personal portfolio with modern design with easy edit by only changing a JSON file",
+        "technologies": ["React", "Vite", "Docker"],
+        "link": "https://github.com/dvicuna98/portfolio"
+      },
+      {
+        "title": "Nestjs Base template",
+        "description": "Template project for creating new services that want to implement retry feature by using RabbitMQ",
+        "technologies": ["Nestjs", "Express", "MongoDB", "Mongoose", "Docker", "RabbitMQ", "Mailing"],
+        "link": "https://github.com/dvicuna98/base-nestjs-starting-project"
+      },
+      {
+        "title": "Skeleton Json from builder",
+        "description": "Template project for creating fast form website by only updating a Object structure at FormView.vue",
+        "technologies": ["Vuejs", "Nginx", "Docker", "RestApi"],
+        "link": "https://github.com/dvicuna98/skeleton-json-form-builder"
+      }
+    ],
+    "es": [
+      {
+        "title": "Constructor de CV",
+        "description": "Constructor de CV es una aplicación de código abierto desarrollada con React y Vite que permite a los usuarios diseñar su currículum de manera interactiva.",
+        "technologies": ["React", "Vite", "Docker"],
+        "link": "https://github.com/dvicuna98/resume-builder"
+      },
+      {
+        "title": "Portafolio 1",
+        "description": "Mi portafolio personal con un diseño moderno y fácil de editar simplemente cambiando un archivo JSON.",
+        "technologies": ["React", "Vite", "Docker"],
+        "link": "https://github.com/dvicuna98/portfolio"
+      },
+      {
+        "title": "Plantilla base de Nestjs",
+        "description": "Plantilla de proyecto para crear nuevos servicios que deseen implementar la función de reintento utilizando RabbitMQ.",
+        "technologies": ["Nestjs", "Express", "MongoDB", "Mongoose", "Docker", "RabbitMQ", "Mailing"],
+        "link": "https://github.com/dvicuna98/base-nestjs-starting-project"
+      },
+      {
+        "title": "Esqueleto Json para constructor de formularios",
+        "description": "Plantilla de proyecto para crear rápidamente un sitio web de formularios simplemente actualizando una estructura de objeto en FormView.vue.",
+        "technologies": ["Vuejs", "Nginx", "Docker", "RestApi"],
+        "link": "https://github.com/dvicuna98/skeleton-json-form-builder"
+      }
+    ]
+  },
+  "contact": {
+    "en": {
+      "email": "diegojeanpierre98@gmail.com",
+      "linkedin": "https://linkedin.com/in/dvicuna98",
+      "github": "https://github.com/dvicuna98"
+    },
+    "es": {
+      "email": "diegojeanpierre98@gmail.com",
+      "linkedin": "https://linkedin.com/in/dvicuna98",
+      "github": "https://github.com/dvicuna98"
+    }
+  }
+}
