@@ -35,7 +35,7 @@ export const AboutPage: React.FC<Props> = ({ theme }) => {
               >
                 <div className="w-32 h-32 rounded-full overflow-hidden ring-4 ring-purple-500/30">
                   <img
-                    src="src/assets/images/me.webp"
+                    src="/assets/images/me.webp"
                     alt="Profile"
                     className="w-full h-full object-cover"
                   />

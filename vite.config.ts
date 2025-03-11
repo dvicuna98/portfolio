@@ -17,6 +17,11 @@ export default defineConfig(({ mode }) => {
       'process.env.EMAILJS_SERVICE_ID': JSON.stringify(env.EMAILJS_SERVICE_ID || 'service_portfolio'),
       'process.env.EMAILJS_TEMPLATE_ID': JSON.stringify(env.EMAILJS_TEMPLATE_ID || 'template_contact'),
       'process.env.EMAILJS_PUBLIC_KEY': JSON.stringify(env.EMAILJS_PUBLIC_KEY || ''),
-    }
+    },
+    build: {
+      outDir: 'dist',
+      assetsDir: 'assets',
+      copyPublicDir: true // Ensure public directory is copied
+    },
   };
 });

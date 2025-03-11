@@ -3,12 +3,12 @@
     "en": {
       "title": "About Me",
       "description": "Passionate and self-driven software developer and team lead with a strong background in agile methodologies. Specialized in microservices and full-stack development, with expertise in domain-driven design (DDD) and event-driven architectures. Experienced in designing and deploying scalable solutions on Google Cloud. Always eager to learn, improve, and drive innovation within teams.",
-      "cvUrl": "src/assets/resumes/en.pdf"
+      "cvUrl": "/assets/resumes/en.pdf"
     },
     "es": {
       "title": "Sobre Mí",
       "description": "Desarrollador de software apasionado y autodidacta, con una sólida experiencia en metodologías ágiles. Especializado en microservicios y desarrollo full-stack, con conocimientos en diseño basado en dominios (DDD) y arquitecturas dirigidas por eventos. Experiencia en diseño e implementación de soluciones escalables en Google Cloud. Siempre motivado por el aprendizaje, la mejora continua y la innovación en los equipos de trabajo.",
-      "cvUrl": "src/assets/resumes/es.pdf"
+      "cvUrl": "/assets/resumes/es.pdf"
     }
   },
   "education": {
