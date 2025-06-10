@@ -15,8 +15,8 @@
     "en": [
       {
         "degree": "Computer Science Engineer",
-        "institution": "Tech University",
-        "period": "2018-2020",
+        "institution": "Salesian Polytechnic University",
+        "period": "2018-2023",
         "descriptions": [
           "Led the development of a distributed system that enabled students to evaluate and grade professors' classes at the Salesian Polytechnic University (Guayaquil campus). Additionally, developed the mobile application using Flutter, which interacted with the backend microservice. The system also allowed students to request class inspections, fostering transparency and accountability in the university’s teaching methods. The feedback and inspection requests were presented to the Computer Science Degree department, providing valuable insights for continuous improvement.",
           "Served as a webinar speaker on the development of a mobile application using Flutter and Firebase. This presentation played a key role in shifting the Mobile Applications curriculum, ensuring that students developed proficiency in creating diverse applications using Flutter. It also contributed to the creation of future mobile application development contests at the university.",
