@@ -14,6 +14,10 @@ RUN npm ci
 
 COPY . .
 
+ARG EMAILJS_SERVICE_ID
+ARG EMAILJS_PUBLIC_KEY
+ARG EMAILJS_TEMPLATE_ID
+
 RUN npm run build \
 && npm prune --production
 
@@ -27,4 +31,5 @@ COPY --from=production-base /app/dist /usr/share/nginx/html
 EXPOSE 80
 
 # Start Nginx
+
 CMD ["nginx", "-g", "daemon off;"]
