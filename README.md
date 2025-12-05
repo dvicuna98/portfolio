@@ -47,6 +47,6 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 
 ## Security Notes
 
-- The EmailJS public key is protected using environment variables
+- The EmailJS public key is protected using secret variables
 - Never commit your `.env` file to the repository
 - For GitHub Pages deployment, use GitHub Secrets to store sensitive information
