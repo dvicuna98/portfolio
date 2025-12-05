@@ -14,16 +14,17 @@ RUN npm ci
 
 COPY . .
 
-ARG EMAILJS_SERVICE_ID
-ARG EMAILJS_PUBLIC_KEY
-ARG EMAILJS_TEMPLATE_ID
-
-ENV EMAILJS_SERVICE_ID=$EMAILJS_SERVICE_ID \
-    EMAILJS_PUBLIC_KEY=$EMAILJS_PUBLIC_KEY \
-    EMAILJS_TEMPLATE_ID=$EMAILJS_TEMPLATE_ID
-
-RUN npm run build \
-&& npm prune --production
+# Mount the secrets only for this RUN
+RUN --mount=type=secret,id=EMAILJS_SERVICE_ID \
+    --mount=type=secret,id=EMAILJS_PUBLIC_KEY \
+    --mount=type=secret,id=EMAILJS_TEMPLATE_ID \
+    sh -c '
+      export EMAILJS_SERVICE_ID="$(cat /run/secrets/EMAILJS_SERVICE_ID)" && \
+      export EMAILJS_PUBLIC_KEY="$(cat /run/secrets/EMAILJS_PUBLIC_KEY)" && \
+      export EMAILJS_TEMPLATE_ID="$(cat /run/secrets/EMAILJS_TEMPLATE_ID)" && \
+      npm run build && \
+      npm prune --production
+    '
 
 # ---- Production stage ----
 FROM nginx:stable-alpine AS production
@@ -37,4 +38,5 @@ EXPOSE 80
 # Start Nginx
 
 CMD ["nginx", "-g", "daemon off;"]
+
 
